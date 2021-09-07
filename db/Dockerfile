@@ -1,6 +1,6 @@
 FROM mysql:8.0.24
 
-MAINTAINER lengleng(wangiegie@gmail.com)
+#MAINTAINER lengleng(wangiegie@gmail.com)
 
 ENV TZ=Asia/Shanghai
 
