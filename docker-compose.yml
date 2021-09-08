@@ -1,15 +1,15 @@
 version: '2'
 services:
-  pig-mysql:
-    build:
-      context: ./db
-    environment:
-      MYSQL_ROOT_PASSWORD: root
-    restart: always
-    container_name: pig-mysql
-    image: pig-mysql
-    ports:
-      - 3306:3306
+#  pig-mysql:
+#    build:
+#      context: ./db
+#    environment:
+#      MYSQL_ROOT_PASSWORD: root
+#    restart: always
+#    container_name: pig-mysql
+#    image: pig-mysql
+#    ports:
+#      - 3306:3306
 
   pig-redis:
     image: redis:6.0
